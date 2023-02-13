@@ -9,6 +9,8 @@ body {
   background-color: #1f2937;
   color: #f9fa98;
 }
+
+/* HEADER SECTION */
 .header {
   padding: 0 30px 50px 30px;
   display: flex;
@@ -66,6 +68,8 @@ a {
   text-decoration: none;
   color: #e5e7eb;
 }
+
+/* BODY SECTION */
 .cards {
   display: flex;
   gap: 30px;
@@ -94,4 +98,32 @@ a {
 }
 .body {
   padding: 30px 0;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+.quote {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+.quote-author {
+  display: flex;
+  min-width: 600px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: flex-end;
 }
