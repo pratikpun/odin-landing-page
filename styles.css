@@ -7,7 +7,7 @@ body {
 .header,
 .footer {
   background-color: #1f2937;
-  color: #f9fa98;
+  color: #e5e7eb;
 }
 
 /* HEADER SECTION */
@@ -126,4 +126,41 @@ a {
   font-size: 20px;
   font-weight: bold;
   justify-content: flex-end;
+}
+
+/* MODAL SECTION */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(69, 101, 227);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.modal-text > p {
+  color: #e5e7eb;
+}
+.modal-container > button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* FOOTER SECTION */
+.footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
 }
