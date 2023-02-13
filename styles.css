@@ -10,12 +10,18 @@ body {
   color: #f9fa98;
 }
 .header {
+  padding: 0 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 0 30px;
+  margin: 10px 0 40px 0;
 }
 .nav > ul {
   display: flex;
@@ -24,6 +30,15 @@ body {
 
 .title-content {
   display: flex;
+  justify-content: space-evenly;
+}
+.title-description {
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+.title-content > img {
+  width: auto;
+  height: 400px;
 }
 
 .title-content > h1 {
@@ -35,7 +50,7 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
-.title-content > button {
+.title-description > button {
   background-color: #3882f6;
   color: white;
   padding: 10px;
